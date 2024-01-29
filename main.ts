@@ -1,6 +1,7 @@
 let prumer: Number;
 let lightLevel = input.lightLevel();
-let tries = 0;
+let tries: Number = 0;
+let calibration: boolean = false;
 basic.forever(function() {
     console.log(input.lightLevel())
     basic.pause(50)
@@ -9,8 +10,9 @@ basic.forever(function() {
     }
 })
 input.onButtonPressed(Button.A, function() {
-    tries += 1
-    console.log(input.lightLevel())
-    for(tries; tries = 5; tries + )
+    tries += 1;
     basic.pause(50)
+    while(calibration = true){
+        prumer = lightLevel / tries;
+    }
 })
