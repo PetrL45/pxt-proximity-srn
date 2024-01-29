@@ -1,6 +1,6 @@
 let prumer: Number;
 let lightLevel = input.lightLevel();
-let tries: Number = 0;
+let tries = 0;
 let calibration: boolean = false;
 basic.forever(function() {
     console.log(input.lightLevel())
